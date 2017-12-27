@@ -8,6 +8,10 @@
            fetch="https://github.com/maruos"
            revision="master" />
 
+  <remote  name="dev"
+	   fetch="/home/bridadan/dev"
+           revision="master" />
+
   <remote  name="github"
            fetch="https://github.com"/>
 
@@ -27,6 +31,7 @@
 
   <project path="kernel/hammerhead" name="android_kernel_hammerhead" groups="hammerhead" remote="maruos" revision="hammerhead-3.4-marshmallow-mr3" clone-depth="1"/>
   <project path="kernel/flo" name="android_kernel_flo" groups="flo" remote="maruos" clone-depth="1"/>
+  <project path="kernel/fireflyrk3399" name="android_kernel_fireflyrk3399" groups="fireflyrk3399" remote="dev" clone-depth="1"/>
 
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
